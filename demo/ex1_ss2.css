@@ -1,0 +1,87 @@
+#div_tong{
+    width: 100%;
+    height: 750px;
+
+}
+/* div tren */
+#div_tren{
+    width: 100%;
+    height: 10%;
+}
+#div_tren > .trai{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#div_tren > .phai{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#div_tren > .phai > .phai_tren{
+    width: 100%;
+    height: 80%;
+    float: left;
+    text-align: right;
+}
+#div_tren > .phai > .phai_duoi{
+    width: 100%;
+    height: 20%;
+    float: left;
+    text-align: right;
+}
+/* div duoi */
+#div_duoi{
+    width: 100%;
+    height: 90%;
+}
+#div_duoi > .trai{
+    width: 23%;
+    height: 100%;
+    background-color: 	darkseagreen;
+    border-right: 5px solid green ;
+    float: left;
+}
+#div_duoi > .giua{
+    width: 60%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+#div_duoi > .phai{
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+#div_duoi > .giua > .giua_trai{
+    text-align: left;
+    float: left;
+}
+#div_duoi > .giua > .giua_giua{
+    margin-left: 120px;
+    text-align: left;
+}
+#div_duoi > .giua > .giua_phai{
+    text-align: right;  
+    height: 1px;
+    width: 97%;
+}
+#div_duoi > .phai> .phai_tren{
+    text-align: center;
+    background-color: darkseagreen;
+    height: 180px;
+}
+#div_duoi > .phai> .phai_duoi{
+	height: 100px;
+	float: left;
+    width: 100%;
+}
+#div_duoi > .phai> .phai_duoi >.trai{
+	float: left;
+    width: 10%;
+} 
+#div_duoi > .phai> .phai_duoi >.phai{
+	float: left;
+    width: 90%;
+    text-align: center;
+} 
