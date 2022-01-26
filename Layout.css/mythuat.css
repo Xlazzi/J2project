@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#div_tong{
+    width: 100%;
+    height: 750px;
+}
+#sanho{
+    width: 18%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    float: left;
+    position: relative;
+}
+#soc{
+    width: 10%;
+    height: 100%;
+    float:left;  
+    background-repeat: no-repeat;
+}
+h1{
+    padding-top: 2%;
+    color: orange;
+    font-size: 3em;
+    position:absolute;
+    padding-left: 24%;
+}
+p{
+    padding-top: 7%;
+    font-size: 1em;
+}
+.bang{
+    padding-left: 24%;
+    padding-top: 2%;
+}
+#sua img{
+    width: 700px;
+    position: absolute;
+}
+table{
+    background-color: #a5f8a8;
+    width: 600px;
+    height: 500px;
+    position:relative;
+}
+.anh{
+    padding-top: 3%;
+    padding-right: 15%;
+    float: left;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+button {
+    cursor: pointer;
+}
+  
