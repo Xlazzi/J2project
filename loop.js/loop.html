@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Loop & Input</title>
+</head>
+<body>
+    <form action="">
+        <input type="number" id="input_so" placeholder="Nhập số vào đây">
+        <button onclick="in_ra()" type="button">Enter</button>
+        <div id="chan_le"></div>
+        <div id="nguyen_to"></div>
+    </form>
+    <script>
+        function in_ra(){
+            let so = document.getElementById('input_so').value;
+            // kiem tra so chan le
+                if(so % 2 == 0 ){
+                    document.getElementById('chan_le').innerHTML=so + ' là số chẵn';
+                    
+                }
+                else if(so % 2 == 1 ){
+                    document.getElementById('chan_le').innerHTML=so + ' là số lẻ';
+                }
+                else{
+                    document.getElementById('chan_le').innerHTML=so + ' là số thập phân';
+                }
+                // kiem tra so nguyen to
+                var flag=true;
+                if(so<2){
+                    flag=false;
+                }
+                else{
+                    for(var i=2; i<so-1;i++){
+                        if(so % i == 0){
+                            flag=false;
+                            break;
+                        }
+                    }
+                } 
+                if(flag==true){
+                    document.getElementById('nguyen_to').innerHTML=so + ' là số nguyên tố';
+                } 
+                else{
+                    document.getElementById('nguyen_to').innerHTML=so + ' không phải là số nguyên tố';
+                }
+            }
+    </script>
+</body>
+</html>
